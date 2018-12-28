@@ -1,0 +1,61 @@
+
+    iframe{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    .foot{
+        height:20rem;
+    }
+
+    .index ul{
+        margin-top:0;
+        padding:0;
+    }
+    .index ul img{
+        width:100%;
+    }
+    .home{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .home img{
+        margin:0.5rem 0.5rem;
+    
+    }
+    /*中间部分图片的*/
+    .home div{
+        position: relative;
+    }
+    .home div a{
+        display: block;
+        box-shadow:-5px -16px -3px black;
+    }
+   /* .home div a:hover{
+       
+    }*/
+    div p{
+        position: absolute;
+        bottom:13%;
+        left: 8%;
+    }
+    .my_style{
+        top:72%;
+        left:8%;
+    }
+    .my_style_b{
+        top:60%;
+        left:8%;
+    }
+    .my_style_m{
+        top:1%;
+        left:40%;
+    }
+    .my_style_m_sm{
+        top:15%;
+        left:36%;
+    }
+
+
+
