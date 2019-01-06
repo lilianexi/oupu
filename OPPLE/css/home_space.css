@@ -1,0 +1,77 @@
+*{margin:0;padding:0}
+.index ul{
+    margin-top:0;
+    padding:0;
+}
+.index ul li{
+    margin:0;
+}
+.index ul img{
+    width:100%;
+}
+.index ul{
+    position: relative;
+}
+.index ul li div{
+    display: block;
+    max-width: 420px !important;
+    width: 420px;
+    padding: 4px 47px 22px 53px;
+    background: rgba(247,143,44,.8);
+    position: absolute;
+    top:40%;
+    left:20%;
+    z-index:  1;
+}
+.index ul li div h1{
+    color:#fff;
+    font-size:2rem;
+}
+.index ul li div p{
+    font-size:1rem;
+}
+section{
+    background: #fff
+}
+
+.nav ul{
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    margin:0 auto;
+}
+.nav ul li{
+    margin:0.5%;
+    padding:0;
+}
+.nav ul li a, .nav ul li p{
+    color:#666;
+}
+.nav ul :nth-child(2){
+  padding-top:12px;
+}
+/*中间6张图片*/
+.bck{
+    width:1200px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin:0 auto;
+}
+.bck div{
+    position: relative;
+    height:50%;
+}
+.bck div a img{
+    width:100%;
+    float:left;
+}
+.bck a h3,p{
+    color:#000;
+}
+.word{
+    bottom:17%;
+    left:66%;
+}
+
